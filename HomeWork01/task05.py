@@ -5,6 +5,6 @@
 #x2, y2 = (int(input('x2= ')), int(input('y2= ')))
 #print(f'Расстояние от А[{x1};{y1}] до B[{x2};{y2}] равно {round (((x2-x1)**2+(y2-y1)**2)**0.5 , 2)}')
 
-first = list(map(int, input('введите координады первой точки чкерез пробел ').split()))
-sec = list(map(int, input('введите координады второй точки чкерез пробел ').split()))
-print(f'Расстояние от А[{first[0]};{first[1]}] до B[{sec[0]};{sec[1]}] равно {round (((sec[0]-first[0])**2+(sec[1]-first[1])**2)**0.5 , 2)}')
+xa,ya = list(map(int, input('введите координады первой точки чкерез пробел ').split()))
+xb,yb = list(map(int, input('введите координады второй точки чкерез пробел ').split()))
+print(f'Расстояние от А[{xa};{ya}] до B[{xb};{yb}] равно {round (((xb-xa)**2+(yb-ya)**2)**0.5 , 2)}')
